@@ -1,5 +1,10 @@
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: rgb(50,50,50);
+  color: rgb(150,150,150);
 }
 
 /* Fonts */
@@ -9,7 +14,7 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3.5rem;
   /* line-height: 30px; */
 }
 
@@ -31,8 +36,11 @@ p {
 
 /* Pictures */
 #avatar {
-  width: 100px;
-  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 33%;
+  margin-right: 2rem;
 }
 
 .img {
@@ -54,13 +62,10 @@ p {
 }
 
 #header {
-  /* background-color: #F8EDE3; */
-  background-image: url("images/FdLkdI01.jpg");
-  background-size: cover;
-  text-align: center;
-  color: #F8EDE3;
-  padding: 10px;
-  border-radius: 5px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .card {
