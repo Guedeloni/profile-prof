@@ -4,13 +4,13 @@ html {
 
 body {
   background-color: rgb(50,50,50);
-  color: rgb(150,150,150);
 }
 
 /* Fonts */
 h1, h2, h3, p {
   font-family: Droid Sans Mono;
   font-weight: 400;
+  color: rgb(200,200,200);
 }
 
 h1 {
@@ -30,7 +30,8 @@ h3 {
 
 p {
   font-size: 20px;
-  font-weight: 200;
+  /* font-weight: 200; */
+  color: rgb(150,150,150);
   /* line-height: 30px; */
 }
 
@@ -69,7 +70,7 @@ p {
 }
 
 .card-1 {
-  
+
   /* background-color: #F8EDE3; */
   /* padding: 30px; */
   /* margin-top: 10px; */
