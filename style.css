@@ -10,7 +10,7 @@ body {
 /*********/
 /* Fonts */
 /*********/
-h1, h2, h3, p {
+h1, h2, p {
   font-family: Droid Sans Mono;
   font-weight: 400;
   color: rgb(200,200,200);
@@ -44,9 +44,9 @@ p {
 }
 
 
-/**********/
-/* Button */
-/**********/
+/******************/
+/* Button / Links */
+/******************/
 .round-button {
   width: 2em;
   height: 2em;
@@ -59,6 +59,11 @@ p {
   transition: 0.2s ease-out;
 }
 
+.text-links {
+  text-decoration: none;
+  color: rgb(150,150,150);
+  font-weight: 600;
+}
 
 /*******/
 /* Div */
