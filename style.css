@@ -43,6 +43,14 @@ p {
   margin-right: 2em;
 }
 
+.icon {
+  height: 1.8em;
+}
+
+.icon-blank {
+  width: 0.5em;
+}
+
 
 /******************/
 /* Button / Links */
@@ -109,8 +117,8 @@ p {
   width: 50%;
   shape-outside: polygon(
     2% 0%, 100% 0%, 100% 100%, 2% 100%,
-    50% 94%, 76.6% 82.7%, 94% 65.6%, 100% 50%,
-    94% 32.6%, 76.6% 17.3%, 50% 6%
+    45% 94%, 72.5% 82.7%, 90% 66%, 98% 50%,
+    90% 33%, 72.5% 17.5%, 50% 6%
   );
   shape-margin: 1.3em;
 }
@@ -131,31 +139,50 @@ p {
   padding: 1em;
 }
 
-/* .separator {
-  border-bottom: 0.1em solid rgb(150,150,150);
-  padding-bottom: 1em;
-} */
-
 .card-1 {
   width: 70%;
   margin: 0 30%;
-  /* background-color: #F8EDE3; */
-  /* padding: 30px; */
-  /* margin-top: 10px; */
-  /* margin-bottom: 10px; */
-  /* border: thin solid #A2B29F; */
-  /* box-shadow: 2px 2px 5px #A2B29F; */
-  /* text-align: center */
+  /* position: relative; */
+}
+
+.card-2 {
+  width: 70%;
+  margin: 0 0;
+  /* position: relative; */
 }
 
 .card-title {
   text-align: center;
 }
 
-.box {
+#position-1 {
+  position: relative;
+  top: 2em;
+  left: 10em;
+}
+
+#position-2 {
+  position: relative;
+  top: -10em;
+  left: 60em;
+}
+
+#position-3 {
+  position: relative;
+  top: 8em;
+  left: -5em;
+}
+
+#position-4 {
+  position: relative;
+  top: 15em;
+  right: 25em;
+}
+
+/* .box {
   display: flex;
   flex-flow: row wrap;
-}
+} */
 
 .list-inline li {
   list-style:none;
