@@ -50,7 +50,7 @@ p {
   height: 5em;
   object-fit: cover;
   border-radius: 33%;
-  margin-right: 2em;
+  margin-right: 5em;
 }
 
 .icon {
@@ -98,6 +98,27 @@ i {
 /***********/
 /* Effects */
 /***********/
+.neon-text {
+  /* font-family: Bad Script; */
+  /* text-transform: uppercase; */
+  text-shadow: 0 0 0.4em lightyellow;
+  opacity: 1;
+  animation: flicker linear alternate 5s infinite;
+}
+@keyframes flicker {
+	0%  {opacity: 0.6}
+	25% {opacity: 0.8}
+	50% {
+		opacity: 1;
+    color: white;
+    filter: saturate(200%);
+	}
+	55% {opacity: 0.2}
+	75% {opacity: 0.8}
+	90% {opacity: 0.5}
+	100% {opacity: 1}
+}
+
 .item {
   width: 18em;
   height: 18em;
