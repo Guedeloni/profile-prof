@@ -118,6 +118,7 @@ i {
   width: 100%;
   height: 100%;
   text-align: center;
+  transform: rotate(360deg);
 }
 
 .item::before {
@@ -144,6 +145,55 @@ i {
     90% 33%, 72.5% 17.5%, 45% 6%
   );
   shape-margin: 1.4em;
+}
+
+.animation-1, .animation-2, .animation-3,
+.animation-4 {
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(0.0,0.0,0.25,1.0);
+}
+.animation-1 {
+  animation-name: entrance-1;
+}
+@keyframes entrance-1 {
+  /* circle circonf = 3.14x18x0.65 */
+  /* 0%   {margin-left: -36.738em} */
+  0%   {margin-left: -73.476em}
+  90%  {margin-left: 3.6738em;
+        transform: rotate(756deg)}
+  90.1%  {transform: rotate(-0deg)}
+  100% {margin-left: 0em;
+        transform: rotate(-36deg)}
+}
+.animation-2 {
+  animation-name: entrance-2;
+}
+@keyframes entrance-2 {
+  0%   {margin-left: -110.214em}
+  90%  {margin-left: 3.6738em;
+        transform: rotate(1116deg)}
+  90.1%  {transform: rotate(-0deg)}
+  100% {margin-left: 0em;
+        transform: rotate(-36deg)}
+}
+.animation-3 {
+  animation-name: entrance-3;
+}
+@keyframes entrance-3 {
+  0%   {margin-left: -146.952em}
+  95%  {margin-left: 1.8369em;
+        transform: rotate(1458deg)}
+  95.1%  {transform: rotate(-0deg)}
+  100% {margin-left: 0em;
+        transform: rotate(-18deg)}
+}
+.animation-4 {
+  animation-name: entrance-4;
+}
+@keyframes entrance-4 {
+  0%   {margin-left: -183.69em}
+  100% {margin-left: 0em;
+        transform: rotate(1800deg)}
 }
 
 
