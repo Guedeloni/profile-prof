@@ -20,3 +20,9 @@
   width: 0.5em;
 }
 
+.card-project {
+  width: 25em;
+  object-fit: contain;
+  /* border-radius: 1em; */
+  margin-right: 3em;
+}

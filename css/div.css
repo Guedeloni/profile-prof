@@ -41,6 +41,12 @@
   flex-direction: column;
 }
 
+.box-project {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 5em;
+}
+
 #footer {
   background-color: rgb(150,150,150);
   text-align: center;

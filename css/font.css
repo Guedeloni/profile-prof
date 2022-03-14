@@ -3,15 +3,15 @@
 /*********/
 @font-face {
   font-family: TitleFont;
-  src:  url('fonts/Caviar-Dreams/CaviarDreams.ttf');
+  src:  url('../fonts/Caviar-Dreams/CaviarDreams.ttf');
 }
 @font-face {
   font-family: TextFontLight;
-  src: url('fonts/fira-code/static/FiraCode-Light.ttf');
+  src: url('../fonts/fira-code/static/FiraCode-Light.ttf');
 }
 @font-face {
   font-family: TextFontBold;
-  src: url('fonts/fira-code/static/FiraCode-SemiBold.ttf');
+  src: url('../fonts/fira-code/static/FiraCode-SemiBold.ttf');
 }
 h1 {
   font-family: TitleFont;
@@ -60,4 +60,3 @@ p {
 .text-interline-down {
   line-height: 1.2em;
 }
-
