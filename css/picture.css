@@ -1,0 +1,28 @@
+/************/
+/* Pictures */
+/************/
+#avatar {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 33%;
+  margin-right: 5em;
+}
+
+.icon {
+  height: 1.8em;
+}
+.icon-large {
+  height: 2.5em;
+}
+
+.icon-blank {
+  width: 0.5em;
+}
+
+.card-project {
+  width: 25em;
+  object-fit: contain;
+  /* border-radius: 1em; */
+  margin-right: 3em;
+}

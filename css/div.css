@@ -1,0 +1,59 @@
+/*******/
+/* Div */
+/*******/
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.card {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#card2 {
+  /* cursor: url(images/Lamp.svg); */
+  /* cursor: move; */
+  opacity: var(--OPACITY);
+}
+
+.box-row,
+.box-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-row {
+  justify-content: space-around;
+}
+.box-column {
+  flex-direction: column;
+}
+
+.box-project {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 5em;
+}
+
+#footer {
+  background-color: rgb(150,150,150);
+  text-align: center;
+  padding: 0.5em;
+}
+.list-inline li {
+  list-style:none;
+  display: inline-block;
+  margin: 0 0.5em;
+}

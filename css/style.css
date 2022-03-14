@@ -1,0 +1,13 @@
+@import url('font.css');
+@import url('picture.css');
+@import url('link.css');
+@import url('div.css');
+@import url('effect.css');
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: rgb(50,50,50);
+}
